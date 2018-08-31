@@ -1,0 +1,25 @@
+{
+  "name": "halogen-try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "watch-less": "fswatch -o less/** | xargs -n1 ./css.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabaraster/halogen-try.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabaraster/halogen-try/issues"
+  },
+  "homepage": "https://github.com/jabaraster/halogen-try#readme",
+  "devDependencies": {
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
